@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+@font-face {
+  font-family: 'Star Jedi';
+  src: url('//db.onlinewebfonts.com/t/0c724f6aa457310440cf8949c615cbd7.woff')
+    format('woff');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  background-image: radial-gradient(#0000, black 90%), url(./imgs/stars.jpg);
+}
